@@ -1,0 +1,404 @@
+status,label,comment_text,status_type,is_instructions,instructions,is_checklist,show_on_samestatus,show_on_changestatus,checklist,statustags
+canceled,Canceled,,4,,,,,,,
+cancelled_amount_forfeit,9920 - Cancelled - Full Amount Forfeit,,10,,,,,,,
+cancelled_rto_pending,94 - RTO Pending (Cancelled) [Processing],,1,,,,,,,
+cancel_advance_applied,Advance Applied,,13,,,,,,,
+cancel_followup,Canceled - Support to Review,,2,1.0,"1- Verify- address, phone number, Pin Code, gemstone size, advance required if applicable, Ring size & Expected dispatch date. 
+2- Direct call. 
+3-WhatsApp. 
+4- Email. 
+5- Need to update comments on Magento 
+",1.0,1.0,1.0,"1 -Need to create zendesk TT (Mandatory) 
+2- Move it in Initiated Queue if response is awaited / pending. 
+3- If approved Need to uncancel and approve the order and need to notify the cx via magento
+",
+cancel_followup_initiated,Canceled - Support to Handle - Initiated,"Dear xxxx,
+
+Greetings from GemPundit.com!
+
+Concerning your order no -10010xxxx, we would like to inform you that you have placed an order for XXXXXX - XXX carats Unfortunately, payment was unsuccessful, and your order has been canceled. Please let us know if you are experiencing difficulties while ordering, and we will be happy to help you.
+
+Please note that we have a policy of waiting approximately 10-15 minutes for payment confirmation. The system marks the order canceled if no confirmation is received within the stipulated time. It makes the products available to other customers who may be interested in the same product.
+
+For any assistance, you can directly reach me at +91-8595951007 or email me at support@gempundit.com. I'll be glad to help you.
+",2,0.0,,0.0,0.0,0.0,,
+cancel_followup_notrequired,Canceled - Follow Up not Required,,13,,,,,,,
+cancel_followup_sales,Canceled - Sales to Review,,2,1.0,"Please change to ""Canceled - Sales to Handle - Initiated"" once you have taken over the ticket",0.0,0.0,0.0,,
+cancel_followup_sales_initiated,Canceled - Sales to Review - Initiated,,2,1.0,"if you receive the order, please uncancel (or uncancel + edit). if its failed, mark as canceled - follow-up not required",0.0,0.0,0.0,,
+cancel_techbug_complete,Complete (Techbug Cancelled),,13,,,,,,,
+closed,Closed,,10,,,,,,,
+closed_adjusted,Closed (Credit Memo Adjusted),,10,,,,,,,
+cod_shipped,91 - COD Shipped [Processing],,1,,,,,,,
+cod_shipped_problem_logistics,91.2 - COD Shipped (Problem - Logistics to Handle),,1,,,,,,,
+cod_shipped_problem_support,91.1 - COD Shipped (Problem - Support to Handle),,4,1.0,"1- Email. 
+2- WhatsApp Message. 
+3- Exotel Call. 
+4- Direct Call.  
+5- Need to update comments on Magento . 
+",1.0,1.0,1.0,"1- Need to create zendesk TT (Mandatory). 
+2- If the issue is resolved needs to move it in 91- COD Shipped. 
+3- If the issue is not resolved and action is required from Logistics 91.2- COD logistics to handle. 
+4-If the issue is not resolved and action is required from our end then need to keep it in the same queue and follow up with the customer
+",
+complete,99 - Complete,"Your package has been delivered. Thank you for choosing GemPundit.com. Would love to serve you again. Warm regards GemPundit.com
+",11,,,,,,,
+complete_create_memo,85 - Create Credit Memo (Adjust) [Complete],,5,,,,,,,
+complete_issue_logistics,99.3 - Post-Completion Issue - Logistics to Handle,,1,,,,,,,
+complete_issue_ops,99.2 - Post-Completion Issue - Ops to Handle,,3,,,,,,,
+complete_issue_support,99.1 - Post-Completion Issue - Support to Handle,,4,,,,,,,
+complete_pending_return,31 - Manual RTO Approved - Refund,,"1,4",,,,,,,
+complete_refunded,90 - Refund Processed - Money,,10,,,,,,,
+complete_refunded_memo_partial,94 - Complete (Partial Amount Adjusted) [Complete],,10,,,,,,,
+complete_refunded_money_partial,92 - Refund Processed - Partial Money [Complete],,10,,,,,,,
+complete_refunded_storecredit,91 - Refund Processed - Store Credit,,4,,,,,,,
+complete_refund_pending_hold,81 - HOLD Processing Refund [Complete],,"4,5",,,,,,,
+complete_refund_pending_unhold,82 - UNHOLD Processing Refund [Complete],,"4,5",,,,,,,
+complete_refund_successful,Mistake - discarded,,,,,,,,,
+complete_remaking,93 - Complete (Remaking),,3,,,,,,,
+complete_returned,52 - RTO Received - Manual RTO (Refund),,1,,,,,,,
+complete_returned_refund_pending,80 - Processing Refund,,5,,,,,,,
+complete_rto_appr_manual_problem,30 - Manual RTO Approved - Problem,,"1,4",,,,,,,
+complete_rto_dispatched_refund,41 - Manual RTO Dispatched - Refund,,1,,,,,,,
+complete_rto_pending_auto_cancel,21 - Auto RTO Pending - Cancelled,,1,,,,,,,
+complete_rto_pending_auto_proble,20 - Auto RTO Pending - Problem,,1,,,,,,,
+complete_rto_pending_manual_prob,40 - Manual RTO Dispatched - Problem,,1,,,,,,,
+complete_rto_rejected_auto_rto,72 - RTO Rejected - Auto RTO,,1,,,,,,,
+complete_rto_rejected_delivered,79 - RTO Rejected - Delivered to Customer,,12,,,,,,,
+complete_rto_rejected_pending_re,70 - RTO Rejected - Pending Return to Customer,,1,,,,,,,
+complete_rto_rejected_rto_receiv,73 - RTO Rejected - RTO Received,,1,,,,,,,
+complete_rto_rejected_shipped,71 - RTO Rejected - Shipped to Customer,,1,,,,,,,
+complete_rto_returned_auto_redis,50 - RTO Received - Auto RTO (Dispatch Again),,1,,,,,,,
+complete_rto_returned_manual_pro,51 - RTO Received - Manual RTO (Problem),,1,,,,,,,
+complete_rto_returned_resolving,60 - RTO Received - Resolving Issue (Problem),,4,1.0,"1- Email. 
+2- WhatsApp Message. 
+3- Exotel Call. 
+4- Direct Call.  
+5- Need to update comments on Magento . 
+",1.0,1.0,1.0,"1-Need to create zendesk TT (Mandatory). 
+2-Need to contact the customer as per the Scenario. 
+3- If cx wants a refund need to initiate the applicable refund, after applying deductions
+",
+forwarded_to_mailroom,90 - Forwarded to Mailroom (Order Ready for Dispatch) [Processing],"Your order is ready for dispatch. It will be shipped within the next 24 hours. An email with the tracking details shall be sent to you at that time. Thank you for choosing GemPundit.com
+",1,,,,,,,
+fraud,Suspected Fraud,,4,1.0,"1- Need to verify details on our first. 
+2- We will take an authorization from the customer. 3-If all the details are verified and matches, we will approve the same and will get the order processed further. 
+4- Need to update comments on Magento. 
+",0.0,0.0,0.0,,
+holded,On Hold,,4,,,,,,,
+hold_cancel,Holded until Cancelled,,,,,,,,,
+info_received_from_vendor,Pending - Information Received from Vendor,,3,,,,,,,
+info_request_to_vendor,Pending - Submitted to Vendor (Information Request),,3,,,,,,,
+mailroom_awaiting_approval_sales,90.2 - Forwarded to Mailroom - Sales to take Cx Approval (Order Ready for Dispatch),,4,,,,,,,
+payment_review,Payment Review,,4,1.0,"1- Email
+2- WhatsApp Message
+3- Exotel Call
+4- Direct Call
+5- Need to update comments on Magento
+6- Need to move it in Pending Payment- Initiated work. 
+",1.0,1.0,1.0,"1- Need to check the payment details on PayPal through email, name, transaction Id & order ID
+2- We need to check if we have received an order for the same cx or not.
+3-If we have received the payment then we will update the details and will approve the order
+4- If we have not received the payment will contact the customer . 
+5- Need to create zendesk TT (Mandatory). 
+6-If it is approved, Need to send a order confirmation email via magento 
+",
+paypal_canceled_reversal,PayPal Canceled Reversal,,4,1.0,"1- Need to check if response tt if the dispute to chargeback is closed in our favor. 
+2- If it has been closed in our favor and the product is delivered then we can mark it complete. 
+3- If it has been closed in our favor and the product is still undelivered then we need to check with logistics regarding the expected delivery date. 
+4-Need to update comments on Magento 
+",0.0,0.0,0.0,,
+paypal_reversed,PayPal Reversed,,4,1.0,"1-Need to check if the dispute has been closed in customer's favor. 
+2- If yes then we need to check whether the order is getting RTO or not. 
+3-If the customer keeps the product the we need to inform the accounts team to book it as a loss and will have to create a credit memo and will have to close the same. 
+4-If the order is in transit to be RTO then we will wait it until it reaches us, then we need to update the tracking id on PayPal. 
+5-Need to update comments on Magento. 
+",0.0,0.0,0.0,,
+pending,Pending,,"2,14",,,,,,,
+pending_approval,Pending Approval,,,,,,,,,
+pending_approval_salesteam,03 - Pending Approval - Sales Team,,"2,14",,,,,,,
+pending_approval_salesteam_initi,03.1 - Pending Approval - Sales Team [Initiated],,2,0.0,,0.0,0.0,0.0,,
+pending_as_cancelled,Canceled (Pending),,13,,,,,,,
+pending_bankdepositorder,Pending - New Order (Bank Deposit),,4,1.0,"1- Verify- address, phone number, Pin Code, gemstone size, advance required if applicable, Ring size & Expected dispatch date. 
+2- Direct call. 
+3-WhatsApp. 
+4- Email. 
+5- Need to update comments on Magento 
+",1.0,1.0,1.0,"1- Need to create zendesk TT (Mandatory). 
+2- If we have not received the payment we will move it in- Initiated queue. 
+3- If cx has deposited the money need to send it to accounts to confirm the same / need to wait until accounts team confirms. 
+4-Once payment is confirmed, need to move it in 10 and need to notify the cx via magento
+",
+pending_bankdepositorder_initiat,Pending - New Order (Bank Deposit) - Initiated Work,,4,,,,,,,
+pending_cod_order_approved,09 - COD Order Approved [New],,3,,,,,,,
+pending_deposit_confirmation_awa,Pending - Awaiting Deposit Confirmation,,"2,14",,,,,,,
+pending_information,Pending - Send Information,,,,,,,,,
+pending_online_confirmation_requ,Pending - Request Online Payment Confirmation,,"2,4",,,,,,,
+pending_payment,Pending Payment,,4,1.0,"1- Follow up call via exotel. 
+2- Direct call. 
+3-WhatsApp. 
+4- Email. 
+5- Need to update comments on Magento 
+6- Need to update follow up date. 
+7-Need to update comments on Magento. 
+8- Need to move it in Pending Payment- Initiated work.
+",1.0,1.0,1.0,"1- Need to check the payment details on PayPal through email, name, transaction Id & order ID.  
+2-We need to check if we have received an order for the same cx or not . 
+3- If we have received the payment then we will update the details and will approve the order. 
+4-If we have not received the payment will contact the customer. 
+5- Need to create zendesk TT (Mandatory). 
+6- If it is approved, Need to send a order confirmation email via magento 
+",
+pending_payment_complete,Complete (Techbug Pending Payment),,"2,14",,,,,,,
+pending_payment_initiated,Pending Payment - Initiated Work,,4,,,,,,,
+pending_paypal,Pending PayPal,,4,,,,,,,
+processing,10 - Order Approved [Processing],,3,,,,,,,
+processing_as_advance_applied,11 - Advance Applied [Processing],,10,,,,,,,
+processing_as_cancelled,Canceled (subcategory of Processing) [Processing],,13,,,,,,,
+processing_cad_approval_initiate,48.0 - CAD Approval - Initiated,"Dear Customer,
+ 
+Thank you for choosing GemPundit. We hope you are safe and doing great.
+ 
+We are excited to share the below-attached CAD design and we are eagerly waiting for your confirmation. Please have a look at the attached image and give us your consent for further processing. 
+
+We appreciate your patience, if you have further queries please feel free to give us a call at +91 11 4084 4599 (INDIA), +1 646 736 7654 (USA), +44 20 3290 8009 (UK), or send an email at support@gempundit.com
+",4,1.0,"1-If we receive the CAD we will cross-check and share with the cx either via magento, email or whats app and will move it in 48.0 CAD Approval initiated. 
+2- Email.
+3- WhatsApp Message. 
+4- Exotel Call. 
+5- Direct Call.  
+6- Need to update comments on Magento . 
+",1.0,1.0,1.0,"1- If the CAD is approved by the CX then need to move it in 48.1 CAD Approved and need to mark done in FMS (FQA 19).
+ 2- If the CAD is denied by the CX, need to move it in 48.2 CAD Denied and the need to move it in 47. Need to mark CAD denied in FMS as well (FQA 19). 
+3-If CAD is denied by the customer then need to move the order in 47 and have to inform about the changes to CAD Team. 
+4-Need to update the comments on Magento. 
+5-Need to create zendesk TT (Mandatory) 
+",
+processing_cad_approved,48.1 - CAD Approved,,3,1.0,"1- Need to update the comments on Magento. 
+",1.0,1.0,1.0,"1- If the CAD is approved by the CX then need to move it in 48.1 CAD Approved and need to mark done in FMS (FQA 19). 
+2- Need to create zendesk TT (Mandatory) 
+",
+processing_cad_denied,48.2 - CAD Denied ,,3,1.0,"1-Need to update the comments on Magento. 
+2- Update the changes to the CAD designer. 
+3- Move the order again to ""47- Sent for CAD Making"" queue.
+",1.0,1.0,1.0,"1- If the CAD is denied by the CX, need to move it in 48.2 CAD Denied and the need to move it in 47. Need to mark CAD denied in FMS as well (FQA 19)  2- If CAD is denied by the customer then need to move the order in 47 and have to inform about the changes to CAD Team. 
+3- Need to create zendesk TT (Mandatory) 
+",
+processing_canceled_before_shipm,961 - Cancelled Before Shipment (but invoice had been created),,4,,,,,,,
+processing_cancelled_amount_forf,9921 - Cancelled - Partial Amount Forfeit,,10,,,,,,,
+processing_complete_lab,41 - Lab Certification Complete (Sent For Lab Certification) [Processing],,3,,,,,,,
+processing_complete_lab_special,Internal Processing - Special Lab Certification Complete,,,,,,,,,
+processing_complete_special,9910.2 - Special Order Complete - Confirmed,,11,,,,,,,
+processing_complete_special_requ,9910.1 - Special Order Complete - Request Confirmation,,"3,5",,,,,,,
+processing_create_memo,9900 - Create Credit Memo (Processing) [Processing],,5,,,,,,,
+processing_forwarded_approved,90.3 - Forwarded to Mailroom (Customer Approved),,1,,,,,,,
+processing_forwarded_awaiting_ap,90.1 - Forwarded to Mailroom (Awaiting Customer Approval),,1,,,,,,,
+processing_forwarded_denied,90.9 - Forwarded to Mailroom (Customer Denied),,3,,,,,,,
+processing_forwarded_other,90.8 - Forwarded to Mailroom - Mgmt Review before Canceling (Order Ready for Dispatch),,"1,3",,,,,,,
+processing_jewellery_pv_done,73.1 - Jewellery Photo Video Done (Jewellery Making Complete),,3,,,,,,,
+processing_jewellery_pv_sent,73 - Jewellery Sent for Photo/Video (Jewellery Making Complete),,"3,9",,,,,,,
+processing_making,55.2 - Jewelry Making under Progress [Processing],"Dear Customer, 
+
+We'd like to inform you that your order has been sent for Jewelry Making. The expected completion time is 5-7 working days. You can also check the status of your order at  https://www.gempundit.com/check-order-status",3,0.0,,0.0,0.0,0.0,,
+processing_making_cad,47 - Sent for CAD Making,"Dear Customer, 
+
+We'd like to inform you that your order has been sent for CAD Making. The expected completion time is 1-2 working days. You can also check the status of your order at https://www.gempundit.com/check-order-status","3,4",1.0,"1- Need to follow up with the CAD team. 
+",0.0,0.0,0.0,,
+processing_making_complete,51 - Jewelry Making Complete (Jewelry Making under Progress) [Processing],,3,,,,,,,
+processing_making_sent,55.1 - Gemstones Sent to Production for Making,,3,,,,,,,
+processing_pending_approval,02 - Pending Approval [Processing],,"4,14",1.0,"1- Verify- address, phone number, Pin Code, gemstone size, advance required if applicable, Ring size & Expected dispatch date. 
+2-Exotel call. 
+3-For DND No's Direct Call. 
+4- WhatsApp. 
+5- Email. 
+6- Need to update comments on Magento 
+7- Need to update follow up date
+",1.0,1.0,1.0,"1-Need to create Zendesk TT (Mandatory) 
+2-If not approved /pending, need to move it in 02.1 
+3- If cx approves the order and if there is any o/s amount of COD then pls notify the cx that he/she makes the payment in CASH only. 
+4- Special remarks should be highlighted in the color Red or Brown 
+5-Payment Details should be in the color blue. 
+",
+processing_pending_approval_init,02.1 - Pending Approval - Initiated,,4,1.0,"1- Follow up call via exotel. 
+2- Direct call. 
+3-WhatsApp. 
+4- Email. 
+5- Need to update comments on Magento 
+6- Need to update follow up date
+",1.0,1.0,1.0,"1- If cx approves the order and if there is any o/s amount for COD then pls notify the cx that he/she makes the payment in CASH only. 
+2-Need to update comments on Zendesk ticket  
+3-Special remarks should be highlighted in the color Red or Brown 
+4-If customer approves the order, move it to ""10-Order Approved with comment"" 
+5- If it is approved, Need to send a order confirmation email via magento 
+",
+processing_pooja_complete,76 - Energization / Pooja Completed (Energization/Pooja Completed) [Processing],"Dear Customer,
+
+Greetings from GemPundit! We hope you are safe and doing great.
+
+Regarding your order, we would like to inform you that the Prana Pratishta/Vedic Pooja has been performed on your order. You can download the video of the same via clicking on the below link-
+
+Pooja Video Link
+
+We request you to download the video within 10 days from now as it will get auto deleted.
+
+If you have further queries please feel free to give us a call at +91 11 4084 4599 (INDIA), +1 646 736 7654 (USA), +44 20 3290 8009 (UK), or send an email at support@gempundit.com",3,,,,,,,
+processing_pooja_sent,75 - Sent for Energization / Pooja (Sent for Energization/Pooja) [Processing],"Dear Customer,
+
+You would be happy to know that your product is ready for dispatch since your order consists of energization (Puja); our astrologers will take a good time to energize the gemstone. Once the energization is completed, we will ship your order within 24 to 48 hours.
+
+We'll send you the Puja Video Link within 24-48 hours of its completion and will ship your order. You will receive the tracking details via email. 
+
+We truly appreciate your patience. ",3,0.0,,0.0,0.0,0.0,,
+processing_problem,30.1 - Problem - Procurement (Order Under Processing) [Processing],,"3,6",,,,,,,
+processing_problem_approved,39 - Problem - Customer Approved [Processing],,3,,,,,,,
+processing_problem_check,35 - Problem - Require Customer Approval [Processing],,4,1.0,"1- Email. 
+2- WhatsApp Message. 
+3- Exotel Call. 
+4- Direct Call.  
+5- Need to update comments on Magento . 
+",1.0,1.0,1.0,"1- Need to create zendesk TT (Mandatory). 
+2- If the cx approves the same, then need to move it in 39 and mark done in FMS (FQA 2). 
+3- If the response is awaited the move it in 35.1 
+",
+processing_problem_check_initiat,35.1 - Problem - Initiated Customer Approval [Processing],,4,1.0,"1- Scinareo specific comments should be updated on magento and need to do follow up accordingly. 2- Do follow up every day. 
+",1.0,1.0,1.0,"1- If the cx approves the same, then need to move it in 39 and mark done in FMS (FQA 2) 
+2- If no response, we need to escalate the case further to the TL.  
+3- If applicable, need to forfeit the charges or refund the advance. 
+4- Need to send an email to the customer for the same. 
+",
+processing_problem_inventory,30.6 - Problem - Inventory (Order Under Processing),,3,,,,,,,
+processing_problem_mgmt,30.5 - Problem - Nitin (Order Under Processing) [Processing],,"3,8",,,,,,,
+processing_problem_ops,30.2 - Problem - operations1 (Order Under Processing) [Processing],,3,,,,,,,
+processing_problem_other,30.9 - Problem - Other (Order Under Processing) [Processing],,3,,,,,,,
+processing_problem_procurement,30.1A - Problem - Procurement (Order Under Processing),,"3,6",,,,,,,
+processing_problem_procurement_b,30.1B - Problem - Procurement (Order Under Processing),,"3,6",,,,,,,
+processing_problem_procurement_c,30.1C - Problem - Procurement [Rahul] (Order Under Processing),,"3,6",,,,,,,
+processing_problem_sales,30.3 - Problem - Sales Team (Order Under Processing) [Processing],,"2,3,14",,,,,,,
+processing_problem_sales_head,30.4 - Problem - Sales Head (Order Under Processing) [Processing],,"3,7",,,,,,,
+processing_qa_fail_jewelry,81 - QA Failed Jewelry - Pending Remake (Jewelry Making under Progress) [Processing],,3,,,,,,,
+processing_qa_fail_jewelry_retur,81.1 - QA Failed Jewelry - Sent for Remaking (Jewelry Making under Progress) [Processing],,3,,,,,,,
+processing_qa_fail_loose,80 - QA Failed Loose (Processing),,3,,,,,,,
+processing_qa_fail_loose_returne,80.1 - QA Failed Loose - Sent Back (Sent for Lab Certification) [Processing],,3,,,,,,,
+processing_qa_pass_jewelry,72 - QA Passed Jewelry (Jewelry Making Under Progress) [Processing],,3,,,,,,,
+processing_qa_pass_normal,71 - QA Passed Loose Gem (Lab Certification Complete) [Processing],,3,,,,,,,
+processing_qa_sent_normal,20.1 - Pending QA Loose Gem (Processing) [Processing],,3,,,,,,,
+processing_ready_approval_initia,88.1 - Ready for Shipment (Waiting for Approval - Initiated Work) [Processing],"Dear Customer,
+
+Greetings from GemPundit.com. We hope you are doing well.
+
+We are very delighted to inform you that your order is ready to be dispatched with us. Before the dispatch of your order, we would like you to go through the photo video attached. Once we receive your consent, your order will be dispatched to you as soon as possible.
+
+We are very excited to show you the photo video of your jewellery and we hope you will be as excited as we are. In addition, it has been checked and verified that the gemstone will touch the skin of the wearer when worn.
+
+We appreciate your patience, if you have further queries please feel free to give us a call at +91 11 4084 4599 (INDIA), +1 646 736 7654 (USA), +44 20 3290 8009 (UK), or send an email at support@gempundit.com
+","3,4",1.0,"1- Email. 
+2- WhatsApp Message. 
+3- Exotel Call. 
+4- Direct Call. 
+5- Follow up. 6-Need to update comments on Magento . 
+",1.0,1.0,1.0,"1- If approved we will move it in 88.2 
+2-If response is awaited we will follow up with the customer. 
+3-If customer has denied or suggested any changes due to design issue we need to move it in 30.2 
+4-If approved need to mark done in FMS 
+",
+processing_ready_approved,88.2 - Ready for Shipment (Approval Received) [Processing],,3,,,,,,,
+processing_ready_payment_pending,89.1 - Ready for Shipment (Pending Balance - Initiated Work) [Processing],,"3,4",1.0,"1- Email. 
+2- WhatsApp Message. 
+3- Exotel Call. 
+4- Direct Call. 
+5- Need to update comments on Magento . 
+",1.0,1.0,1.0,"1- If P/V is approved and we have received the payment we will edit the order as per the GC and will move it in 89.2.  
+2-If approved need to mark done in FMS. 
+3- If the response is awaited or pending or if there is any discrepancy we will sort this and will get it approved from the customer. 
+4- If there is no response we will send reminder emails and share the cancelation charges or deductions via email. 
+5- Need to create zendesk TT (Mandatory). 
+6-If customer wants to cancel the order or there is no response we will forfeit the applicable charges or received advance and will notify the customer 
+",
+processing_ready_payment_receive,89.2 - Ready for Shipment (Balance Payment Received) [Processing],,3,,,,,,,
+processing_ready_pendantcase_sen,87 - Sent for Pendant Case (Processing),,3,,,,,,,
+processing_ready_pending_approva,88 - Ready for Shipment (Waiting for Approval) [Processing],,"3,4",1.0,"1- Email. 
+2- WhatsApp Message. 
+3- Exotel Call. 
+4- Direct Call.  
+5- Need to update comments on Magento . 
+",1.0,1.0,1.0,"1- If the ops team has already shared the p/v with the customer via magento then we just need to move it in 88.1. 
+
+2-If the ops team have not shared the p/v then we need to share it with the cx and move it in 88.1.
+",
+processing_ready_pending_payment,89 - Ready for Shipment (Pending Balance) [Processing],,"3,4",1.0,"1- We need to share the photo video and the final GC (after reviewing the GC)  with the customer and need to move it in 89.1   
+
+2-Need to update comments on Magento.
+",1.0,1.0,1.0,"1-Need to create zendesk TT (Mandatory) 
+",
+processing_refund_pending,9901 - Processing Refund [Processing],,5,,,,,,,
+processing_refund_pending_hold,9902 - HOLD Processing Refund [Processing],,"4,5",,,,,,,
+processing_refund_pending_unhold,9903 - UNHOLD Processing Refund [Processing],,"4,5",,,,,,,
+processing_refund_successful,9909 - Fully Refunded,,10,,,,,,,
+processing_replaced_with_new_ord,96 - Replaced with New Accurate Order,,10,,,,,,,
+processing_rto_pending,93 - RTO Pending - Problem [Processing],,1,0.0,,0.0,0.0,0.0,,
+processing_rto_received_cancel,94.1 - RTO Received - Order To Be Cancelled,,1,,,,,,,
+processing_rto_received_need_to_,20.2 - RTO Received - Need to sent for Remaking,,3,,,,,,,
+processing_sent_for_cad_approval,48 - CAD Approval (Sent for CAD approval),,4,1.0,"1-If we receive the CAD we will cross-check and share with the cx either via magento, email or whats app and will move it in 48.0 CAD Approval initiated. 
+2- Email. 
+3- WhatsApp Message. 
+4- Exotel Call. 
+5- Direct Call. 
+6- Need to update comments on Magento . 
+",1.0,1.0,1.0,"1- If the CAD is approved by the CX then need to move it in 48.1 CAD Approved and need to mark done in FMS (FQA 19). 
+2- If the CAD is denied by the CX, need to move it in 48.2 CAD Denied and the need to move it in 47. Need to mark CAD denied in FMS as well (FQA 19). 
+3-If CAD is denied by the customer then need to move the order in 47 and have to inform about the changes to CAD Team. 
+4-Need to update the comments on Magento. 
+5-Need to create zendesk TT (Mandatory) 
+",
+processing_sent_lab,40 - Sent for Lab Certification [Processing],"Dear Customer, 
+
+We would like to inform you that the gemstone you ordered has been sent to the lab for certification; it would take approximately 5 to 7 business days for your Gemstone to be certified and will be sent back to us once formalities are completed.
+
+You will be receiving further updates via e-mail.",3,0.0,,0.0,0.0,0.0,,
+processing_support_to_be_added,10.1  - Support to be added,,,,,,,,,
+processing_to_be_added_in_logist,10.2  -  to be added in Logistics,,,,,,,,,
+received_from_vendor,60 - Received Gem from Warehouse (Sent for Lab Certification) [Processing],,3,,,,,,,
+received_from_vendor_jewelry,61 - Received Jewelry from Warehouse (Jewelry Making under Progress) [Processing],,3,,,,,,,
+ring_sizer_awaiting_update,50.3 - Ring Sizer Delivered (Support to Handle),"Dear Customer,
+
+Greetings from GemPundit!
+
+Thank you for choosing GemPundit. We hope you are safe and doing great.
+
+The ring sizer has been delivered to your address. We would appreciate it if you could confirm your ring size so that the jewelry making process can begin. In addition, we request that you share images with us while putting the ring sizer on your chosen finger, clicking the photo, and sharing with us; Please ensure that the ring size number is visible in the photo. 
+
+We appreciate your patience; if you have further queries, please feel free to give us a call at +91 11 4084 4599 (INDIA), +1 646 736 7654 (USA), +44 20 3290 8009 (UK), or send an email at support@gempundit.com","3,4",1.0,"1- Email.
+2- WhatsApp Message. 
+3- Exotel Call. 
+4- Direct Call.  
+5- Need to update comments on Magento . 
+",1.0,1.0,1.0,"1- Need to create zendesk TT (Mandatory) 
+2-If the ring size is "" I don’t know- send me a ring sizer"" and the customer is giving us a ring size then we need to update the same on magneto and need to move it in 50.5 Ring size updated. 
+3- If the ring sizer is delivered to the customer and a ring size is already mentioned on the order the we need to edit the order and update the ring size in the color red and move it in 10 Order approved. 
+4- If the ring sizer is delivered to the customer and response is awaited then we need to follow up accordingly and the order will remain in the same queue 50.3. 
+",
+ring_sizer_need_to_send,50.1 - Ring Sizer Need to Send,,1,,,,,,,
+ring_sizer_sent,50.2 - Ring Sizer Sent,"Dear Customer,
+
+Greetings from GemPundit!
+
+We would like to inform you that we have sent you a Metal ring sizer via XXXXX under tracking id (Tracking ID). It is expected to reach you within 3-4 working days. Once received, please share the image of the correct ring size with our support department by sending an email to support@gempundit.com",1,0.0,,0.0,0.0,0.0,,
+ring_sizer_updated,50.5 - Ring Size Updated,,3,,,,,,,
+rto_received,93.1 - RTO Received - Problem (To Be Re-dispatched),,1,,,,,,,
+shipment_lost_accountstohandle,9930.1 - Shipment Lost (Paperwork sent to Accounts to Update Tally),,5,1.0,"Please mark this ONLY when responsibility of logistics team is completely OVER (i.e. Insurance Claim Received, or Credit Note from Logistics Partner received, Book Loss to Company Approved) ",0.0,0.0,0.0,,
+shipment_lost_by_logistics_partn,10.3 - Shipment lost by Logistic Partner,,,,,,,,,
+shipment_lost_by_logistic_partne,9930 - Shipment lost by Logistic Partner,,1,0.0,,0.0,0.0,0.0,,
+shipment_lost_issueclosed,9930.2 - Shipment Lost (All Paperwork Done and Closed),,10,1.0,Only Accounts can mark this! Please mark this ONLY when all paperwork finished and everything updated in Tally,0.0,0.0,0.0,,
+shipped,10 - Shipped,,1,,,,,,,
+shipped_problem_logistics,10.2 - Shipped (Problem - Logistics to handle),,1,,,,,,,
+shipped_problem_support,10.1 - Shipped (Problem - Support to handle),,"1,4",1.0,"1- Check issue details from logistics. 
+2- Direct call. 
+3-WhatsApp. 
+4- Email. 
+5- Need to update comments on Magento . 
+",1.0,1.0,1.0,"1- Need to create zendesk TT (Mandatory). 
+2- If the issue is resolved needs to mark it as 10. shipped. 
+3- If the issue is not resolved and action required from Logistics, need to move it in 10.2 logistics to handle. 
+4- If the issue is not resolved and action is required from our end then need to keep it in the same queue and follow up with the customer
+",
+submitted_to_vendor,20 - Submitted to Warehouse [Processing],,3,,,,,,,
+unpaid_shipped,92 - Unpaid Non-COD Shipped [Processing],,"1,3",,,,,,,
